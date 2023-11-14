@@ -1,0 +1,105 @@
+/*sections------------------------------------------------------------------- */
+body {
+}
+.wrapper {
+    background-color: darkgray;
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+main  {
+    background-color: grey;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: x-large;
+}
+article	{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    background-color: gray;
+}
+aside	{
+}
+footer {
+}
+header {
+}
+.post	{
+}
+nav	{
+}
+.menu	{
+}
+#logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 10%;
+}
+/*headings------------------------------------------------------------------- */
+h1	{ 
+    color:black;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+h2	{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+h3 	{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+/*grouping------------------------------------------------------------------- */
+p	{
+}
+blockquote	{
+}
+table   {
+}
+/*lists---------------------------------------------------------------------- */
+ul	{
+}
+li	{
+}
+ol	{
+}
+dl	{
+}
+dt	{
+}
+dd	{
+}
+/*text------------------------------------------------------------------------ */
+em	{
+}
+strong	{
+}
+small	{
+}
+cite	{
+}
+time	{
+}
+/*image----------------------------------------------------------------------- */
+figure	{
+}
+figcaption	{
+}
+img	{
+}
+/*anchors--------------------------------------------------------------------- */
+a:link	{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    text-decoration: none;
+}
+a:visited {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+a:hover {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    text-decoration: underline;
+}
+a:active {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
