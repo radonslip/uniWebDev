@@ -52,13 +52,9 @@ nav	{
 .blogImage
 {
     display: block;
-    max-width: 100%;
-    max-height: auto;
-    margin-left: 0px;
-    margin-right: auto;
+    width: 50%;
     padding-right: 10px;
     padding-left: 10px;
-    object-fit: cover;
 }
 /*headings------------------------------------------------------------------- */
 h1	{ 
