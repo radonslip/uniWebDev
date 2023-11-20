@@ -5,13 +5,13 @@ body
     color:white;
 }
 .wrapper {
-    background-color: #404040;
+    background-color: #1a1a1a;
     
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
     padding-bottom: 10px;
 }
 main  {
@@ -71,6 +71,7 @@ nav	{
     margin-right: 0px;
     float:right;
     width: 25%;
+    padding-right: 10px;
 }
 .blogImage
 {
@@ -79,10 +80,10 @@ nav	{
     padding-right: 10px;
     padding-left: 10px;
 }
-table
-{
+table, th, td {
     background-color: #262626;
-}
+    border: 1px solid;
+  }
 .buttonBar
 {
     background-color: black;
