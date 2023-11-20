@@ -173,7 +173,6 @@ a:active {
     grid-template-areas:
     "topMenu"
     "main"
-    "blogs"
 }
 
 .topMenu
@@ -184,10 +183,7 @@ main
 {
     grid-area: main;
 }
-.blogs
-{
-    grid-area:blogs;
-}
+
 
 @media (min-width: 1000px)
 {
@@ -202,6 +198,6 @@ main
     grid-template-areas:
     "topMenu topMenu"
     "main main"
-    "blogs blogs"
+
 }
 }
