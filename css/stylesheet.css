@@ -1,5 +1,7 @@
 /*sections------------------------------------------------------------------- */
-body {
+body 
+{
+    background-color: black;
 }
 .wrapper {
     background-color: darkgray;
