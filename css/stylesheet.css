@@ -4,7 +4,7 @@ body {
 .wrapper {
     background-color: darkgray;
     
-    max-width: 100%;
+    max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 10px;
@@ -30,14 +30,27 @@ header {
 }
 nav	{
 }
-.menu	{
+.topMenu	
+{
+    background-color: darkgray;
+    
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 #logo
 {
     display: block;
     margin-left: auto;
     margin-right: 0px;
-    width: 10%;
+    float:right;
+    width: 25%;
+}
+.blogImage
+{
+    display: block;
+    width: 50%;
 }
 /*headings------------------------------------------------------------------- */
 h1	{ 
