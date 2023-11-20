@@ -52,7 +52,8 @@ nav	{
 .blogImage
 {
     display: block;
-    width: 50%;
+    max-width: 100%;
+    max-height: auto;
     margin-left: 0px;
     margin-right: auto;
     padding-right: 10px;
