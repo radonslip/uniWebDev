@@ -101,6 +101,8 @@ table, th, td {
 h1	{ 
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     text-align:left;
+    padding: 10px;
+    margin:0px;
 }
 h2	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
