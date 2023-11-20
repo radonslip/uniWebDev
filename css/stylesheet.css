@@ -16,7 +16,7 @@ body
 main  {
     background-color: grey;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-    font-size: x-large;
+    font-size: large;
 }
 article	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
@@ -52,9 +52,13 @@ nav	{
 .blogImage
 {
     display: block;
-    width: 100%;
+    width: 95%;
     padding-right: 10px;
     padding-left: 10px;
+}
+table
+{
+    background-color: darkgrey;
 }
 /*headings------------------------------------------------------------------- */
 h1	{ 
