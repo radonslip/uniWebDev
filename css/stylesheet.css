@@ -93,7 +93,7 @@ table
 /*headings------------------------------------------------------------------- */
 h1	{ 
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-    text-align:start;
+    text-align:left;
 }
 h2	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
