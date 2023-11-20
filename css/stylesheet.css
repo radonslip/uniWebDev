@@ -1,10 +1,11 @@
 /*sections------------------------------------------------------------------- */
 body 
 {
-    background-color: black;
+    background-color: #1a1a1a;
+    color:white;
 }
 .wrapper {
-    background-color: darkgray;
+    background-color: #404040;
     
     max-width: 1000px;
     margin-right: auto;
@@ -14,13 +15,13 @@ body
     padding-bottom: 10px;
 }
 main  {
-    background-color: grey;
+    background-color: #262626;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     font-size: large;
 }
 article	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-    background-color: gray;
+    background-color: #262626;
 }
 aside	{
 }
@@ -34,12 +35,34 @@ nav	{
 }
 .topMenu	
 {
-    background-color: darkgray;
+    background-color: #262626;
     
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 
+}
+.topMenu a
+{
+    background-color: #1a1a1a;
+    padding:inherit;
+    
+}
+.topMenu a:link
+{
+    color: white;
+    text-decoration: none;
+}
+.topMenu a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.topMenu a:hover
+{
+    color: white;
+    background-color: #333333;
+    text-decoration: none;
 }
 #logo
 {
@@ -58,12 +81,19 @@ nav	{
 }
 table
 {
-    background-color: darkgrey;
+    background-color: #262626;
 }
+.buttonBar
+{
+    background-color: black;
+    padding: 10px;
+}
+
+
 /*headings------------------------------------------------------------------- */
 h1	{ 
-    color:black;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    text-align:start;
 }
 h2	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
@@ -112,10 +142,12 @@ img	{
 /*anchors--------------------------------------------------------------------- */
 a:link	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    color:#3399ff;
     text-decoration: none;
 }
 a:visited {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    color:#cc00cc;
 }
 a:hover {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
