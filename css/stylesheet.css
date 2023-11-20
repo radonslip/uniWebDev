@@ -59,6 +59,7 @@ nav	{
 table
 {
     background-color: darkgrey;
+    width: max-content;
 }
 /*headings------------------------------------------------------------------- */
 h1	{ 
