@@ -64,7 +64,7 @@ nav	{
     background-color: #333333;
     text-decoration: none;
 }
-#logo
+.logo
 {
     display: block;
     margin-left: auto;
@@ -88,6 +88,12 @@ table, th, td {
 {
     background-color: black;
     padding: 10px;
+}
+.sideimg
+{
+    width: 30%;
+    float :right;
+
 }
 
 
