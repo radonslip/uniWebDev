@@ -22,6 +22,7 @@ main  {
 article	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     background-color: #262626;
+    padding: 10px;
 }
 aside	{
 }
@@ -38,8 +39,6 @@ nav	{
     background-color: #262626;
     
     max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
 
 }
 .topMenu a
@@ -91,7 +90,7 @@ table, th, td {
 }
 .sideimg
 {
-    width: 30%;
+    width: 50%;
     float :right;
 
 }
@@ -164,4 +163,45 @@ a:hover {
 }
 a:active {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+/*Grid*/
+.wrapper
+{
+    display: grid;
+    grid-gap: 5px;
+
+    grid-template-areas:
+    "topMenu"
+    "main"
+    "blogs"
+}
+
+.topMenu
+{
+    grid-area: topMenu;
+}
+main
+{
+    grid-area: main;
+}
+.blogs
+{
+    grid-area:blogs;
+}
+
+@media (min-width: 1000px)
+{
+    /*Grid*/
+.wrapper
+{
+    /* display: grid;
+    grid-gap: 20px; */
+    
+    grid-template-columns: 2fr 2fr ;
+
+    grid-template-areas:
+    "topMenu topMenu"
+    "main main"
+    "blogs blogs"
+}
 }
