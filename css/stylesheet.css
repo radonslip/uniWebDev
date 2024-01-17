@@ -196,6 +196,10 @@ a:active {
 @media screen and (min-width: 40em)
 {
 .card { width: 50%; }
+footer
+{
+    width: 100%;
+}
 }
 /*960 px* - tablet landscape orientation and above - 3 columns*/
 @media screen and (min-width: 60em) 
