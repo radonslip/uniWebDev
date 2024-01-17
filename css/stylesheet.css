@@ -3,6 +3,11 @@ body
 {
     background-color: #1a1a1a;
     color:white;
+    background-image: conic-gradient(black,#595959,black,#595959,black);
+}
+a
+{
+    word-wrap: break-word;
 }
 .wrapper {
     background-color: #1a1a1a;
@@ -10,9 +15,7 @@ body
     max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
-    /* padding-right: 10px;
-    padding-left: 10px; */
-    padding-bottom: 10px;
+    position: relative;
 }
 main  {
     background-color: #262626;
@@ -24,16 +27,37 @@ article	{
     background-color: #262626;
     padding: 10px;
 }
-aside	{
+
+footer 
+{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    background-color: black;
+    max-width: 1500px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0;
+    vertical-align: bottom;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-footer {
+.footerText
+{
+    margin-left: 10px;
 }
-header {
+table
+{
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-bottom: 10px;
 }
-.post	{
+#timeTableText
+{
+    margin: 10px;
+    
 }
-nav	{
-}
+
 .topMenu	
 {
     background-color: #262626;
@@ -79,10 +103,11 @@ nav	{
     padding-right: 10px;
     padding-left: 10px;
 }
+
 table, th, td {
     background-color: #262626;
     border: 1px solid;
-  }
+}
 .buttonBar
 {
     background-color: black;
@@ -119,47 +144,13 @@ h1	{
 }
 h2	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    text-align:left;
+    padding: 10px;
 }
 h3 	{
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-}
-/*grouping------------------------------------------------------------------- */
-p	{
-}
-blockquote	{
-}
-table   {
-}
-/*lists---------------------------------------------------------------------- */
-ul	{
-}
-li	{
-}
-ol	{
-}
-dl	{
-}
-dt	{
-}
-dd	{
-}
-/*text------------------------------------------------------------------------ */
-em	{
-}
-strong	{
-}
-small	{
-}
-cite	{
-}
-time	{
-}
-/*image----------------------------------------------------------------------- */
-figure	{
-}
-figcaption	{
-}
-img	{
+    
+    
 }
 /*anchors--------------------------------------------------------------------- */
 a:link	{
@@ -260,3 +251,5 @@ textarea
     display: block;
     width: 50%
 }
+
+
