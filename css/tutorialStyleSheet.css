@@ -114,7 +114,6 @@ iframe
     flex-wrap: wrap;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     width: fit-content;
-    background-color: #262626;
 }
 .card 
 {
@@ -125,8 +124,7 @@ iframe
 {
     flex-direction: column;
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     margin: 1.25em 1.25em 0.3em 0;
     padding: 1em;
     background-color: #333333;
@@ -212,41 +210,4 @@ a:hover {
 }
 a:active {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-}
-/*Grid*/
-.wrapper
-{
-    display: grid;
-    grid-gap: 5px;
-
-    grid-template-areas:
-    "topMenu"
-    "main"
-}
-
-.topMenu
-{
-    grid-area: topMenu;
-}
-main
-{
-    grid-area: main;
-}
-
-
-@media (min-width: 1000px)
-{
-    /*Grid*/
-.wrapper
-{
-    /* display: grid;
-    grid-gap: 20px; */
-    
-    grid-template-columns: 2fr 2fr ;
-
-    grid-template-areas:
-    "topMenu topMenu"
-    "main main"
-
-}
 }
