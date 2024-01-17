@@ -108,41 +108,6 @@ iframe
     position: absolute;top: 0; left: 0; right: 0; bottom: 0;width: 100%;height: 100%;
 }
 
-.cards 
-{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-    width: fit-content;
-    background-color: #262626;
-}
-.card 
-{
-    display: flex; 
-
-}
-.card-content 
-{
-    flex-direction: column;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 1.25em 1.25em 0.3em 0;
-    padding: 1em;
-    background-color: #333333;
-  }
-  
-  /*640 px - tablet portrait orientation - 2 columns*/
-  @media screen and (min-width: 40em)
-  {
-    .card { width: 50%; }
-  }
-  /*960 px* - tablet landscape orientation and above - 3 columns*/
-  @media screen and (min-width: 60em) 
-  {
-    .card { width: 33.33%; }
-  }
-
 
 
 /*headings------------------------------------------------------------------- */
@@ -213,40 +178,72 @@ a:hover {
 a:active {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
-/*Grid*/
-.wrapper
-{
-    display: grid;
-    grid-gap: 5px;
 
-    grid-template-areas:
-    "topMenu"
-    "main"
+/*CARDS */
+.cards 
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    width: fit-content;
 }
-
-.topMenu
+.card 
 {
-    grid-area: topMenu;
-}
-main
-{
-    grid-area: main;
-}
-
-
-@media (min-width: 1000px)
-{
-    /*Grid*/
-.wrapper
-{
-    /* display: grid;
-    grid-gap: 20px; */
-    
-    grid-template-columns: 2fr 2fr ;
-
-    grid-template-areas:
-    "topMenu topMenu"
-    "main main"
+    display: flex; 
 
 }
+.card-content 
+{
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    margin: 1.25em 1.25em 0.3em 0;
+    padding: 1em;
+    background-color: #333333;
+}
+
+/*640 px - tablet portrait orientation - 2 columns*/
+@media screen and (min-width: 40em)
+{
+.card { width: 50%; }
+}
+/*960 px* - tablet landscape orientation and above - 3 columns*/
+@media screen and (min-width: 60em) 
+{
+.card { width: 33.33%; }
+}
+
+#form
+{
+    padding: 10px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    width: fit-content;
+}
+
+.formContainer
+{
+    background-color: #262626;
+}
+label {display: block;}
+input {display: block;}
+
+#submitBut
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color:white;
+    background-color: #1a1a1a;
+}
+
+input
+{
+    background-color: #1a1a1a;
+    color:white;
+}
+
+textarea
+{
+    background-color: #1a1a1a;
+    color:white;
 }

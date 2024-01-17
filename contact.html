@@ -26,6 +26,41 @@
             <a href="mailto:j.hutchinson2@uni.brighton.ac.uk">j.hutchinson2@uni.brighton.ac.uk</a>
         </article>
 
+        <div class="formContainer">
+            <form id = "form">
+                <h2>Contact Me:</h2>
+
+                <fieldset>
+                    <legend>Enter Contact Information</legend>
+                    <label for="name">Name <em>(required)</em></label>
+                    <input type="text" id="name">
+                    <label for="email">Email address <em>(required)</em></label>
+                    <input type="text"  id="email">
+                    <label for="url">Website address</label>
+                    <input type="text" id="url" value="http://" >
+                </fieldset>
+
+                <fieldset>
+                    <label for="message">Message: </label>
+                    <textarea id="message" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Would you like more information?</legend>
+                    <label for="information-yes">
+                      <input type="radio" id="information-yes" name="information" value="yes">
+                      Yes
+                    </label>
+                    <label for="information-no">
+                      <input type="radio" id="information-no" name="information" value="no" checked >
+                      No
+                    </label>
+                </fieldset>
+
+                <input id="submitBut" type="submit" value="Send" >
+            </form>
+        </div>
+
     </div>
 
 </body>

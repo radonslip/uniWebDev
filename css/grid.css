@@ -1,0 +1,37 @@
+/*Grid*/
+.wrapper
+{
+    display: grid;
+    grid-gap: 5px;
+
+    grid-template-areas:
+    "topMenu"
+    "main"
+}
+
+.topMenu
+{
+    grid-area: topMenu;
+}
+main
+{
+    grid-area: main;
+}
+
+
+@media (min-width: 1000px)
+{
+    /*Grid*/
+.wrapper
+{
+    /* display: grid;
+    grid-gap: 20px; */
+    
+    grid-template-columns: 2fr 2fr ;
+
+    grid-template-areas:
+    "topMenu topMenu"
+    "main main"
+
+}
+}
